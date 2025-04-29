@@ -21,7 +21,7 @@ html {
     top: 0;
     right: 0;
     width: 100%;
-    padding: 35px 9%;
+    padding: 10px 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,19 +30,19 @@ html {
     z-index: 1000;
 }
 
-.header .logo {
+.header .icon {
     font-size: 40px;
     color: #222;
     font-weight: 500;
     letter-spacing: 2px;
 }
 
-.header .logo span {
+span {
     color: rgb(12, 250, 12);
 }
 
 .header .navbar a {
-    font-size: 26px;
+    font-size: 27px;
     margin: 0 20px;
     color: #222;
 }
@@ -50,16 +50,18 @@ html {
 .header .navbar a:hover {
     color: rgb(12, 250, 12);
     letter-spacing: 1px;
+    font-size: 30px;
 }
 
-/* .header .icons div {
-    font-size: 40px;
+.header .logo img {
+    width: 100px;
     color: #222;
     padding: 8px;
     margin-left: 15px;
+    
 }
 
-.header .icons a {
+/*.header .icons a {
     font-size: 25px;
     letter-spacing: 2px;
     color: #222;
@@ -76,6 +78,7 @@ section {
     font-size: 65px;
     text-align: center;
     padding-top: 64px;
+    text-transform: uppercase;
 }
 
 .btn {
@@ -98,8 +101,20 @@ section {
     align-items: center;
     justify-content: center;
     padding: 30px;
+    
+}
+
+.section1 .home .box1 {
+    background: url('content2.jpeg');
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+.section1 .home .box2 {
+    background: url('content1.jpeg');
+    background-size: cover;
+    /* background-position: center; */
     background-repeat: no-repeat;
 }
 
@@ -108,17 +123,32 @@ section {
     max-width: 1020px;
 }
 
-.section1 .home .box .content h3 {
+.section1 .home .box .content1 h3 {
+    font-size: 80px;
+    color: #222;
+    transition-delay: .2s;
+}
+
+.section1 .home .box .content2 h3 {
     font-size: 80px;
     color: #fff;
     transition-delay: .2s;
 }
 
-.section1 .home .box .content p {
+.section1 .home .box .content1 p {
     font-size: 25px;
     color: #222;
     padding: 16px 0;
     transition-delay: .4s;
+    line-height: 40px;
+}
+
+.section1 .home .box .content2 p {
+    font-size: 25px;
+    color: #fff;
+    padding: 16px 0;
+    transition-delay: .4s;
+    line-height: 40px;
 }
 
 .section1 .home .box .button .btn {
@@ -142,6 +172,87 @@ section {
     color: #222;
     opacity: 1;
 
+}
+
+.feature .feature-slider {
+    padding-bottom: 60px;
+}
+
+.feature .feature-slider .box {
+    position: relative;
+    text-align: center;
+}
+
+.feature .feature-slider .box .image {
+    height: 640px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.feature .feature-slider .box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.feature .feature-slider .box:hover .image img {
+    transform: scale(1.2);
+}
+
+.feature .feature-slider .box .content
+
+footer {
+    background: rgb(94, 88, 83);
+    color: #fff;
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about p {
+    padding: 10px;
+}
+
+.about a {
+    font-size: 40px;
+    color: rgb(12, 250, 12);
+    padding: 10px 10px 0 0;
+}
+
+.contact p {
+    padding: 10px;
+}
+
+.contact i {
+    font-size: 25px;
+    color: rgb(12, 250, 12);
+}
+.contact p:hover {
+    color: rgb(12, 250, 12);
+    font-size: 20px;
+}
+
+.quick {
+    display: flex;
+    flex-direction: column;
+}
+
+.quick a {
+    color: #fff;
+    padding: 10px;
+}
+.quick a:hover {
+    color: rgb(12, 250, 12);
+    font-size: 20px;
+}
+
+.lower-footer {
+    padding: 25px;
+    text-align: center;
+    font-size: 25px;
 }
 
 
