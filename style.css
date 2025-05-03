@@ -316,10 +316,21 @@ section {
     justify-content: space-around;
 }
 
+.blog .blog-slider .box {
+    width: 270px;
+    overflow: hidden;
+    padding: 10px;
+}
+
 .blog .blog-slider .box .btn {
     background: rgb(12, 250, 12);
     color: #222;
 } 
+
+.blog .blog-slider .box .btn:hover {
+    background: #222;
+    color: rgb(12, 250, 12);
+}
 
 /* ---------------------------footer------------------------- */
 
