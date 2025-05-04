@@ -309,6 +309,11 @@ section {
     height: 450px;
 }
 
+.expert .expert-slider .box h2 , p {
+    padding: 10px;
+    font-size: 25px;
+}
+
 /* ------------------------------blog section-------------------------- */
 
 .blog .blog-slider {
