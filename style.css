@@ -255,9 +255,10 @@ section {
 }
 
 .schedule .schedule-slider .box {
-    width: 375px;
+    width: 380px;
     height: 350px;
     padding: 5px;
+    
 }
 
 .schedule .schedule-slider .box p {
@@ -273,7 +274,7 @@ section {
 
 .schedule .schedule-slider .box .icons span {
     display: block;
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 20px;
     color: #222;
 }
